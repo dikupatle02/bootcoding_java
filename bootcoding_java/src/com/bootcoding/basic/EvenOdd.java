@@ -2,6 +2,11 @@ package com.bootcoding.basic;
 
 public class EvenOdd
 {
+    void start() {
+        System.out.println("start");
+    }
+
+
     public static void main(String[]args)
     {
       System.out.print("Enter a number:");
