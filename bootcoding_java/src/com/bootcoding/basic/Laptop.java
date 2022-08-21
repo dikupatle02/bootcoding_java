@@ -3,7 +3,7 @@ package com.bootcoding.basic;
 public class Laptop {
     String color;
     int size;
-    float price;
+    double price;
     String unit;
 
     String getColor() {
@@ -11,6 +11,17 @@ public class Laptop {
     }
 
     void start() {
+        System.out.println("start");
+    }
+
+    public static void main(String[] args) {
+        Laptop hp = new Laptop();
+        Laptop asus = new Laptop();
+        hp.color= "RED";
+        hp.size= 15;
+        hp.price=50000.50;
+        hp.getColor();
+        hp.start();
 
     }
 }
