@@ -4,7 +4,8 @@ public class SwitchCaseExample
 {
     public static void main(String[] args) {
         String month ="January";
-        switch(month){
+        switch(month)
+        {
             case "January":
                 System.out.println(" First month is January ");
                 break;
