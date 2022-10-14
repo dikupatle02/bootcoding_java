@@ -21,7 +21,7 @@ public class DuplicateArray
             data.put(dup[i], ++count);
         }
 
-        int max = 1;
+        int max= 1;
         int res = 0;
         for(int key : data.keySet())
         {

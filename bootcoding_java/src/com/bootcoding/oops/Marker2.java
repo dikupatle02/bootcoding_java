@@ -2,6 +2,7 @@ package com.bootcoding.oops;
 
 public class Marker2
 {
+    long id;
     String company;
     String type;
     String color;
@@ -33,6 +34,15 @@ public class Marker2
 
     public double getPrice() {
         return price;
+    }
+
+    public long getId()
+    {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getType() {
